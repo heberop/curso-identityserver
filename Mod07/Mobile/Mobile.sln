@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mobile", "Mobile\Mobile.csproj", "{F0491DD3-C1A4-4A95-91B6-7F2B95B7302E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFE0C33-4A1D-4954-A0A9-65472A12AF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFE0C33-4A1D-4954-A0A9-65472A12AF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFE0C33-4A1D-4954-A0A9-65472A12AF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFE0C33-4A1D-4954-A0A9-65472A12AF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0491DD3-C1A4-4A95-91B6-7F2B95B7302E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0491DD3-C1A4-4A95-91B6-7F2B95B7302E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0491DD3-C1A4-4A95-91B6-7F2B95B7302E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0491DD3-C1A4-4A95-91B6-7F2B95B7302E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

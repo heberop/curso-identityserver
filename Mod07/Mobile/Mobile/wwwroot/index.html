@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+    </style>
+</head>
+<body>
+    <span>User:</span><input type="text" id="user" name="user" />
+    <span>Password:</span><input type="password" id="password" name="password" />
+    <button id="login">Login</button>
+
+    <pre class="results"></pre>
+
+    <script src="jquery-3.2.0.min.js"></script>
+    <script>
+        $("#login").click(function () {
+            var data = {
+                grant_type: "password",
+                username: $("#user").val(),
+                password: $("#password").val(),
+                client_id: "mobile-client",
+                client_secret: "segredo",
+                scope: "financial.read"
+            };
+
+            $.post("http://localhost:5000/connect/token", data, function(response){
+                console.log(response);
+            });
+        });
+    </script>
+</body>
+</html>

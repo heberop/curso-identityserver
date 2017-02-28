@@ -1,0 +1,13 @@
+﻿@using System.Security
+@{
+    ViewData["Title"] = "Show Claims";
+}
+<h2>Claims</h2>
+
+@foreach(var claim in User.Claims)
+{
+    <div>
+        <p>@claim.Type : @claim.Value</p>
+    </div>
+}
+
